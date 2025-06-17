@@ -1,0 +1,15 @@
+site_name: irradium
+repo_name: gitlab
+repo_url: https://gitlab.com/sndwvs/irradium.org
+#edit_uri: 'docs/'
+
+theme:
+    name: material
+    logo: images/irradium-logo.svg
+    icon:
+      repo: fontawesome/brands/square-gitlab
+    favicon: images/irradium-favicon.png
+
+plugins:
+    - search
+    - tags
