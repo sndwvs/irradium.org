@@ -1,7 +1,11 @@
 site_name: irradium
-repo_name: gitlab
+site_author: "mara"
+site_url: https://irradium.org
+site_description: irradium (based on crux linux) riscv64, aarch64
+copyright: Copyright &copy; 2023 - 2025 irradium
 repo_url: https://gitlab.com/sndwvs/irradium.org
-#edit_uri: 'docs/'
+edit_uri: 'docs/'
+repo_name: gitlab
 
 theme:
     name: material
@@ -9,7 +13,100 @@ theme:
     icon:
       repo: fontawesome/brands/square-gitlab
     favicon: images/irradium-favicon.png
+    palette:
+        # Palette toggle for light mode
+        - scheme: default
+          primary: deep purple
+          accent: deep purple
+          toggle:
+            icon: material/toggle-switch-off-outline
+            name: Switch to dark mode
+        # Palette toggle for dark mode
+        - scheme: slate
+          primary: deep purple
+          accent: deep purple
+          toggle:
+            icon: material/toggle-switch
+            name: Switch to light mode
+    features:
+        - content.action.edit
+        - content.action.view
+        - content.code.copy
+        - navigation.tabs
+        - navigation.top
+        - navigation.expand
+        - toc.integrate
+
+markdown_extensions:
+  - smarty
+  - footnotes
+#  - mdx_truly_sane_lists
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: True
+  - pymdownx.highlight:
+      auto_title: true
+      linenums: true
+      use_pygments: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+      - name: custombash
+        class: custom-bash-block
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  - markdown.extensions.admonition # Highlighted warning/info blocks
+  - markdown.extensions.attr_list # Set custom HTML attributes {: }
+  - markdown.extensions.footnotes # Footnotes [^1]
+  - markdown.extensions.meta # Define meta data (page title and description) at the top of the Markdown document
+  - markdown.extensions.smarty # Automatically convert dashes, underscore, three-dots and quotes to text symbols
+  - markdown.extensions.tables # Tables
+  - markdown.extensions.toc: # Add HTML id attribute to headers
+      permalink: true # Headers are links to themselves
+  - pymdownx.betterem: # More intuitive emphasis handling
+      smart_enable: all # Even smarter for both (asterisk and underscore) syntax => GitHub-like
+  - pymdownx.details # Collapsible details blocks
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.keys # Keyboard key symbols
+  - pymdownx.magiclink: # Auto-links non angle bracket URLs and email addresses and allows to shorten and visualise Git repo links
+      repo_url_shortener: true
+      repo_url_shorthand: true
+  - pymdownx.superfences # Indented code blocks, e.g. within lists, admonition, details or tabbed blocks, implies pymdownx.highlight
+  - pymdownx.tabbed: # Tabbed content blocks
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      combine_header_slug: true
+
+extra_css:
+    - css/irradium.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/sndwvs/irradium/
+    - icon: fontawesome/solid/house
+      link: https://irradium.org/
 
 plugins:
     - search
-    - tags
+
+nav:
+  - home: "index.md"
+  - documentation:
+        - "": "documentation.md"
+  - boards: "boards.md"
+  - support: "support.md"
+  - source: "source.md"
+  - download: "download.md"
+  - donate: "donate.md"
