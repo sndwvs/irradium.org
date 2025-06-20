@@ -1,5 +1,6 @@
 support ARM / RISC-V based single-board computers
-=================================================
+
+---
 
 *   Allwinner
     *   A20
