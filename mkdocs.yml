@@ -4,7 +4,7 @@ site_url: https://irradium.org
 site_description: irradium (based on crux linux) riscv64, aarch64
 copyright: Copyright &copy; 2023 - 2025 irradium
 repo_url: https://gitlab.com/sndwvs/irradium.org
-edit_uri: 'docs/'
+edit_uri: '-/blob/master/docs/'
 repo_name: gitlab
 
 theme:
