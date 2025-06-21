@@ -43,6 +43,7 @@ markdown_extensions:
   - mdx_truly_sane_lists
   - attr_list
   - md_in_html
+  - def_list
   - toc:
       permalink: True
   - pymdownx.highlight:
@@ -87,6 +88,8 @@ markdown_extensions:
         kwds:
           case: lower
       combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 extra_css:
     - css/irradium.css
