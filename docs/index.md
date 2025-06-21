@@ -11,7 +11,7 @@
 
 ---
 
-A lightweight source based Linux distribution [CRUX](https://crux.nu/) adhering to ideology keep it simple, has its own [package system](https://crux.nu/Main/Handbook3-8#ntoc26), also supports the [port system](https://crux.nu/Main/Handbook3-8#ntoc36).
+A lightweight source based linux distribution based on the [CRUX](https://crux.nu/) distribution, adhering to ideology "keep it simple", has its own [package system](https://crux.nu/Main/Handbook3-8#ntoc26), also supports the [port system](https://crux.nu/Main/Handbook3-8#ntoc36).
 
 ---
 
