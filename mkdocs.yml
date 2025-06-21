@@ -102,9 +102,10 @@ plugins:
     - search
 
 nav:
-  - home: "index.md"
-  - documentation:
-        - "": "documentation.md"
+  - 'irradium':
+        - "": "index.md"
+  - 'documentation':
+        - "": "user_manual_network_configuration.md"
   - boards: "boards.md"
   - support: "support.md"
   - source: "source.md"
