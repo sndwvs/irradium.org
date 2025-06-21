@@ -1,6 +1,11 @@
-support ARM / RISC-V based single-board computers
 
----
+<div class="grid cards" markdown>
+
+- <figure markdown="span">Support ARM / RISC-V based single-board computers</figure>
+
+</div>
+
+</br>
 
 - [x] Allwinner
   - [x] A20
