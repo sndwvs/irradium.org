@@ -96,3 +96,7 @@
 - [x] SiFive
   - [x] EIC7700X ([SiFive P550](https://www.sifive.com/cores/performance-p500))
     - [x] [Milk-V Megrez](https://milkv.io/docs/megrez/overview#hardware-specifications)
+
+- [x] Cix Technology
+  - [x] CD8180
+    - [x] [Orion O6](https://radxa.com/products/orion/o6#techspec)
