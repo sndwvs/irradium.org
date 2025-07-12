@@ -33,8 +33,11 @@ theme:
         - content.action.view
         - content.code.copy
         - navigation.tabs
+#        - navigation.tabs.sticky
         - navigation.top
         - navigation.expand
+#        - navigation.sections
+#        - navigation.indexes
         - toc.integrate
 
 markdown_extensions:
@@ -107,12 +110,15 @@ plugins:
 nav:
   - 'irradium':
         - "": "index.md"
-  - 'documentation':
-        - "": "user_manual_network_configuration.md"
+  - 'documentations':
+        - "": "documentations.md"
+        - "irradium 3.8": "documentation/3.8/user_manual_network_configuration.md"
   - boards: "boards.md"
   - support: "https://www.linuxquestions.org/questions/slarm64-132/irradium-based-on-crux-linux-riscv64-aarch64-4175730357"
   - source: "https://gitlab.com/sndwvs/irradium/"
   - 'download': 
         - "": "download.md"
+  - 'bugs':
+        - "": "bugs.md"
   - 'donate':
         - "": "donate.md"
