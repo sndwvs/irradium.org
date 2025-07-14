@@ -96,6 +96,7 @@
 - [x] SiFive
   - [x] EIC7700X ([SiFive P550](https://www.sifive.com/cores/performance-p500))
     - [x] [Milk-V Megrez](https://milkv.io/docs/megrez/overview#hardware-specifications)
+    - [x] [StarPro64](https://pine64.org/documentation/StarPro64/Specifications/)
 
 - [x] Cix Technology
   - [x] CD8180
