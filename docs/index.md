@@ -23,5 +23,6 @@ A lightweight source based linux distribution based on the [CRUX](https://crux.n
 - <figure markdown="span">[![](images/firefly-logo-150x150.png){ width="100" }](https://en.t-firefly.com/)</figure>
 - <figure markdown="span">[![](images/stationpc-logo-150x150.png){ width="100" }](https://www.stationpc.com/)</figure>
 - <figure markdown="span">[![](images/hardkernel-logo-150x150.png){ width="100" }](https://www.hardkernel.com/)</figure>
+- <figure markdown="span">[![](images/pine64-logo-150x150.png){ width="100" }](https://pine64.org/)</figure>
 
 </div>
