@@ -88,6 +88,8 @@
     - [x] [VisionFive 2](https://doc-en.rvspace.org/VisionFive2/Product_Brief/VisionFive_2/specification_pb.html)
     - [x] [Star64](https://wiki.pine64.org/wiki/STAR64#SoC_and_Memory_Specification)
     - [x] [Orange Pi RV](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-RV.html)
+  - [x] JH7110S
+    - [x] [VisionFive 2 Lite](https://doc-en.rvspace.org/VisionFive2Lite/VisionFive2LitePB/VisionFive_2/specification_pb_lite.html)
 
 - [x] Alibaba T-Head
   - [x] TH1520 ([XuanTie C910](https://www.t-head.cn/product/c910?lang=en))
