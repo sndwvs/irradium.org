@@ -103,3 +103,4 @@
 - [x] Cix Technology
   - [x] CD8180
     - [x] [Orion O6](https://radxa.com/products/orion/o6#techspec)
+    - [x] [Orange Pi 6 Plus](http://www.orangepi.org/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-6-Plus.html)
