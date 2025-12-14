@@ -112,8 +112,8 @@ nav:
         - "": "index.md"
   - 'documentation':
         - "": "documentation.md"
-        - "": "documentation/3.8/index.md"
-        - "irradium 3.8": "documentation/3.8/user_manual_network_configuration.md"
+        - "irradium 3.8": "documentation/3.8/index.md"
+        - "irradium 3.7": "documentation/3.7/index.md"
   - boards: "boards.md"
   - support: "https://www.linuxquestions.org/questions/slarm64-132/irradium-based-on-crux-linux-riscv64-aarch64-4175730357"
   - source: "https://gitlab.com/sndwvs/irradium/"
